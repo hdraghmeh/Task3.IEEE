@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Webpage</title>
+  <link rel="stylesheet" href="styel.css" />
+  <!-- Google Fonts: Titillium Web -->
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <main>
+    <section id="intro">
+      <h1 class="title">مرحبا بكم في موقعنا التجار!</h1>
+    <section>
+      <h2>نموذج تواصل</h2>
+      <form action="#" method="post">
+        <label for="name">الاسم:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="message">رسالتك:</label><br>
+        <textarea id="message" name="message" rows="4" cols="30"></textarea><br>
+
+        <button type="submit">إرسال</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>فيديو توضيحي</h2>
+      <video width="320" height="240" controls>
+        <source src="https://youtu.be/wql2DpSnjlQ?si=s2xI1Yf66oW2F4cg" type="video/mp4">
+        متصفحك لا يدعم تشغيل الفيديو.
+      </video>
+    </section>
+
+    <section>
+      <h2>محتوى مضمّن (iframe)</h2>
+      <iframe width="300" height="200" src="https://www.example.com" title="Embedded Page"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - تصميم بسيط لأغراض التدريب</p>
+  </footer>
+
+</body>
+</html>
